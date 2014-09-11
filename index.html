@@ -1,11 +1,59 @@
-<!doctype html>
-<html>
-<head>
-    <title>Yahoo Open Source</title>
-    <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0;url=https://github.com/yahoo"/>
-</head>
-<body>
-<h1>Redirecting to <a href="https://github.com/yahoo">https://github.com/yahoo</a></h1>
-</body>
-</html>
+---
+layout: yahoo
+title: Open Source Projects - Yahoo!
+description: Code
+---
+
+<div id="repos">
+</div>
+
+
+<script id="repo_template" type="text/x-handlebars-template">
+{% raw %}
+    {{#items}}
+    <article class="text {{languageClass}}" id="repo_{{name}}">
+        <header>
+            <h3>
+                <a href="{{url}}">{{name}}</a>
+                <ul class="meta">
+                    <li class="stars octicon octicon-star"><a href="{{url}}">{{stars}}</a></li>
+                    <li class="forks octicon octicon-repo-forked"><a href="{{url}}">{{forks}}</a></li>
+                    <!--li class="time"><a href="{{url}}">{{lastCommit}}</a></li-->
+                    {{#if languageClass}}
+                    <li class="language octicon octicon-code"><span class="color-{{languageClass}}">{{language}}</span></li>
+                    {{/if}}
+                </ul>
+            </h3>
+        </header>
+
+        <section>
+          <div class="description">{{description}}</div>
+          <!--p><a href="{{url}}" class="btn read-more">View Source<span class="icon arrow"></span></a></p-->
+        </section>
+
+        <footer>
+            <!--ul class="tags">
+                <li><a href="{TagURL}" title="{Title} - {Tag}">{TagA}</a></li>
+                <li><a href="{TagURL}" title="{Title} - {Tag}">{TagB}</a></li>
+            </ul-->
+        </footer>
+    </article>
+    {{/items}}
+{% endraw %}
+</script>
+
+
+<script id="buttons_template" type="text/x-handlebars-template">
+{% raw %}
+  <li> <button class="btn filter active-filter" class=".all" data-filter="*">All</button> </li>
+  {{#buttons}}
+  <li> <button class="btn filter" class=".{{name}}" data-filter=".{{name}}">{{name}}</button> </li>
+  {{/buttons}}
+  <li> <button class="btn filter" class=".other" data-filter=":not({{popular}})">Other</button> </li>
+{% endraw %}
+</script>
+
+
+<script>
+  var publicRepos = {{ site.github.public_repositories | jsonify }};
+</script>
