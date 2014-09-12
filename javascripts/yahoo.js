@@ -44,6 +44,10 @@ jQuery(function($){
             template = Handlebars.compile(source);
 
         $.each(repos, function(i, repo) {
+          if (repo.fork) {
+            return;
+          }
+
           langClass = null;
           if (repo.language) {
             langClass = repo.language
