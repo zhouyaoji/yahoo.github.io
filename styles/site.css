@@ -292,23 +292,23 @@
 
     /* Custom CSS */
     nav.property-blogs ul li a.eng:after {
-      background-image: url(http://yui.yahooapis.com/code2.png);
+      background-image: url(../images/code2.png);
     }
     nav.property-blogs ul li a.ydn:after {
-      background-image: url(http://yui.yahooapis.com/code2.png);
+      background-image: url(../images/code2.png);
       background-position: 0 -28px;
     }
     nav.property-blogs ul li a.pure:after {
-      background-image: url(http://24.media.tumblr.com/avatar_9ad74077b910_16.png);
+      background-image: url(../images/avatar_9ad74077b910_16.png);
     }
     nav.property-blogs ul li a.yui:after {
-      background-image: url(http://yuilibrary.com/img/favicon.png);
+      background-image: url(../images/yui.png);
     }
     nav.property-blogs ul li a.yahoo:after {
-      background-image: url(http://static.tumblr.com/zlkd3tl/rDXmsmqpo/icon4.png);
+      background-image: url(../images/flickr.png);
     }
     nav.property-blogs ul li a.hadoop:after {
-      background-image: url(http://icons.boardreader.com/57/8f/578ffae9f186915e2f1af7b2687f72bc.png);
+      background-image: url(../images/578ffae9f186915e2f1af7b2687f72bc.png);
     }
     nav.property-blogs {
       width: 154px;
