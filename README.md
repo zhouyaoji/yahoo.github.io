@@ -1,7 +1,7 @@
 Yahoo Open Source
 =====================
 
-This is a GitHub Pages site build with [Jekyll](http://jekyllrb.com/) and hosted on [GitHub Pages](http://pages.github.com/).
+This is a GitHub Pages site built with [Jekyll](http://jekyllrb.com/) and hosted on [GitHub Pages](http://pages.github.com/).
 
 To Run Locally
 --
