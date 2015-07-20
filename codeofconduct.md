@@ -1,9 +1,24 @@
 ---
-Document: Yahoo's Open Source Community Code of Conduct
-Version: 1.0
+layout: yahoo
+title: Yahoo's Open Source Community Code of Conduct
+categories: [goals, diversity, issues, acknowledgement]
+tags: [open source]
+titles: {goals: Goals of Our Code of Conduct, diversity: Diversity Statement, issues: Reporting Issues, acknowledgement: Ackowledgement}
 ---
 
+
+## Yahoo's Open Source Community Code of Conduct  {#code_of_conduct}
+
 This code of conduct outlines our expectations for participation within Yahoo's Open Source communities, as well as steps to reporting unacceptable behavior. We commit to providing a welcoming and inspiring community for all and expect our code of conduct to be honored. Anyone violating this code of conduct may be removed from our community.
+
+We'll be looking at the following in the sections below:
+
+* [Goals of Our Code of Conduct](#goals)
+* [Diversity Statement](#diversity)
+* [Reporting Issues](#issues)
+* [Ackowledgement](#acknowledgement)
+
+### Goals of Our Code of Conduct {#goals}
 
 Our open source communities strive to:
 
@@ -24,14 +39,15 @@ Our open source communities strive to:
 
 This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment, and goals. We expect it to be followed in spirit as much as in the letter.
 
-### Diversity Statement
+
+### Diversity Statement {#diversity}
 
 We encourage everyone to participate and are committed to building a community for all. Although we may not be able to satisfy everyone, we all agree that everyone is worthy of respect. Whenever a participant has made a mistake, we expect them to take responsibility for it. If someone has been harmed or offended, it is our responsibility to listen carefully and respectfully, and do our best to right the wrong.
 
-Although this list cannot be exhaustive, we explicitly honor diversity in age, gender, gender identity or expression, culture, ethnicity, language, national origin, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, and technical ability. We will not tolerate discrimination based on any of the protected
-characteristics above, including participants with disabilities.
+Although this list cannot be exhaustive, we explicitly honor diversity in age, gender, gender identity or expression, culture, ethnicity, language, national origin, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, and technical ability. We will not tolerate discrimination based on any of the protected characteristics above, including participants with disabilities.
 
-### Reporting Issues
+
+### Reporting Issues {#issues}
 
 If you experience or witness unacceptable behavior—or have any other concerns—please report it by contacting us via **opensource-conduct** 'at' **yahoo-inc.com**. All reports will be handled with discretion. In your report please include:
 
@@ -43,7 +59,7 @@ After filing a report, a representative will contact you personally. If the pers
 
 Anyone asked to stop unacceptable behavior is expected to comply immediately. If an individual engages in unacceptable behavior, the representative may take any action they deem appropriate, up to and including a permanent ban from our community without warning.
 
-### Acknowledgement
+### Acknowledgement {#acknowledgement}
 
 Yahoo's Open Source program has adopted this Code of Conduct from the [//TODOGroup](https://todogroup.org), licensed under [Creative Commons Attribution 4.0](https://github.com/todogroup/opencodeofconduct/blob/gh-pages/LICENSE). The [//TODOGroup Code of Conduct](https://github.com/todogroup/opencodeofconduct) is a template which you can customize for your Open Source communities.
 
