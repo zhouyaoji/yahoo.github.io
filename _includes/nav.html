@@ -7,6 +7,9 @@
             <ul id="filters" class="pages">
             </ul>
             <ul class="util">
+                {% if page.url contains "codeofconduct.html" %}
+                  <li class="archive"><a href="../">Home</a></li>
+                {% endif %} 
                 <li class="archive"><a href="https://careers.yahoo.com/us/buildyourcareer">Work With Us</a></li>
                 <li class="archive"><a href="/codeofconduct.html">Code of Conduct</a></li>
             </ul>
